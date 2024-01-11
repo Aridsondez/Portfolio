@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document Person Portfolio Aridsondez</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/57b4a3c229.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Aridsondez</span><br>Jerome From Florida</h1>
+        </div>
+    </div>
+</div>
+<!---about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMG_1805.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a passionate software engineering student at the University of Central Florida. Eager to master core concepts, 
+                    I actively engage in classes and collaborate on personal coding projects. 
+                    Open-source contributions, internships, and networking events amplify my experience. 
+                    Continuous learning is my mantra, both in technical skills and essential soft skills. 
+                    Excited to contribute meaningfully to the software engineering landscape.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C (programming language)</span><br></li>
+                            <li><span>Java</span><br></li>
+                            <li><span>UI/UX</span><br></li>
+                            <li><span>Python</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Publix Super Market Inc.</li>
+                            <li><span>2024 - Current</span><br>Computer Science 1, Teacher Assistant, 
+                            University of Central Florida </li>
+                            <li><span>2022 - 2023</span><br>Fitness Attendant, Recreational Wellness Center,
+                            University of Central Florida</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br> B.S in Computer Science, University of Central Florida, 
+                            Orlando</li>
+                            <li><span>2018-2022</span><br>Fort Lauderdale Highschool</li>
+                            <li><span>2018-2022</span><br>Cambridge AICE Diploma </li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+</div>
+<!--Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p> &nbspSpecializing in responsive design and intuitive user interfaces, I bring ideas to life using HTML5, CSS3, and JavaScript. 
+                    Let's collaborate to elevate your online presence with a design that captivates and engages.</p>
+                <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX</h2>
+                <p> &nbsp With expertise in crafting intuitive interfaces and prioritizing user satisfaction, 
+                    I specialize in creating designs that engage and delight</p>
+                <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <h2>Backend Dev </h2>
+                <p> &nbsp A strong command of programming languages and databases,
+                     I specialize in architecting the backbone of web applications to ensure seamless 
+                     functionality and optimal performance.</p>
+                <a href="#contact">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="gtapicture copy.jpg">
+                <div class="layer">
+                    <h3>GTA 6 Countdown</h3>
+                    <p>A website that counts down the days until the release of GTA 6. Embeded is the GTA 6 Trailer. </p>
+                    <a href="#https://aridsondez.github.io/gta-countdown/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="" >
+                <div class="layer">
+                    <h3>Comming Soon</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="" >
+                <div class="layer">
+                    <h3>Comming Soon</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> workaridsondez@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 9545889476</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aridsondez-jerome-a97a2a251/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Aridsondez"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="Aridsondez_Jerome_Resume .docx" download class="btn btn2">Download Resume</a>
+            </div>
+
+            <div class="contactright">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="2bccb2af-7a3b-490c-bcd0-e73581611347">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<div class="copyright">
+    <p>Copyright © Aridsondez. Made by Aridsondez Jerome</p>
+</div>
+</body>
+</html>
