@@ -392,6 +392,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .contact-left p{
+        text-decoration: none;
         color:white;
     }
     .copyright{
